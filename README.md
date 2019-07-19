@@ -607,7 +607,7 @@ var arrayOfMovies = [Movie]()
 
 for dictionary in movies {
     if let makeMovie = makeMovie(dict: dictionary){
-    arrayOfMovies.append(makeMovie)
+        arrayOfMovies.append(makeMovie)
     }
 }
 
